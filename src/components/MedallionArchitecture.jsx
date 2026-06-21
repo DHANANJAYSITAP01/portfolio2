@@ -5,50 +5,57 @@ const layers = [
     emoji: "🏢",
     title: "Source Systems",
     desc: "Transactional DBs · POS Systems · APIs · CSV / JSON feeds",
-    border: "border-gray-500",
-    glow: "",
+    border: "border-teal-500/40",
+    glow: "shadow-teal-500/10",
+    iconBg: "bg-teal-500/10",
   },
   {
     emoji: "🪣",
     title: "AWS S3 (Data Lake)",
     desc: "Centralized object storage · Parquet, ORC, Delta format · Partitioned by date",
-    border: "border-teal-500",
-    glow: "shadow-teal-500/30",
+    border: "border-teal-400/50",
+    glow: "shadow-teal-400/20",
+    iconBg: "bg-teal-400/10",
   },
   {
     emoji: "🥉",
     title: "Bronze Layer",
     desc: "Raw ingestion · Schema-on-read · Immutable records · Full audit trail",
-    border: "border-orange-700",
-    glow: "shadow-orange-700/30",
+    border: "border-teal-500/40",
+    glow: "shadow-teal-500/10",
+    iconBg: "bg-teal-500/10",
   },
   {
     emoji: "🥈",
     title: "Silver Layer",
     desc: "Cleaned & deduped · SCD Type 2 · Data quality checks · Business keys",
-    border: "border-gray-400",
-    glow: "shadow-gray-400/30",
+    border: "border-teal-400/50",
+    glow: "shadow-teal-400/20",
+    iconBg: "bg-teal-400/10",
   },
   {
     emoji: "🥇",
     title: "Gold Layer",
     desc: "Aggregated KPIs · Star schema · Business-ready · Serving layer",
-    border: "border-yellow-400",
-    glow: "shadow-yellow-400/30",
+    border: "border-teal-300/50",
+    glow: "shadow-teal-300/20",
+    iconBg: "bg-teal-300/10",
   },
   {
     emoji: "🏛️",
     title: "Amazon Redshift",
     desc: "Columnar DWH · Distribution keys · Sort keys · RA3 nodes",
-    border: "border-teal-400",
-    glow: "shadow-teal-400/30",
+    border: "border-teal-400/50",
+    glow: "shadow-teal-400/20",
+    iconBg: "bg-teal-400/10",
   },
   {
     emoji: "📊",
     title: "BI & Analytics",
     desc: "QuickSight · Tableau · Power BI · Self-service dashboards",
-    border: "border-purple-500",
-    glow: "shadow-purple-500/30",
+    border: "border-teal-500/40",
+    glow: "shadow-teal-500/10",
+    iconBg: "bg-teal-500/10",
   },
 ];
 
@@ -81,16 +88,18 @@ export default function MedallionArchitecture() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className={`w-full rounded-2xl border ${layer.border} bg-gray-900 shadow-lg ${layer.glow} p-5 text-center`}
+                className={`w-full rounded-2xl border ${layer.border} bg-gray-900/80 shadow-lg ${layer.glow} p-5 text-center`}
               >
-                <div className="text-3xl mb-2">{layer.emoji}</div>
+                <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${layer.iconBg} mb-3 text-2xl`}>
+                  {layer.emoji}
+                </div>
                 <h3 className="text-white font-bold text-lg">{layer.title}</h3>
                 <p className="text-gray-400 text-sm mt-1">{layer.desc}</p>
               </motion.div>
 
               {i < layers.length - 1 && (
                 <div className="flex flex-col items-center my-1">
-                  <div className="w-0.5 h-5 bg-teal-500"></div>
+                  <div className="w-0.5 h-5 bg-teal-500/60"></div>
                   <div className="w-0 h-0 border-l-4 border-r-4 border-t-8 border-l-transparent border-r-transparent border-t-teal-500"></div>
                 </div>
               )}
