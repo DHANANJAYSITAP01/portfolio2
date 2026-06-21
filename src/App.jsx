@@ -25,13 +25,13 @@ export default function App() {
         <Skills />
         <Projects />
         <Experience />
+        <MedallionArchitecture />
         <Certifications />
         <Education />
         <Achievements />
         <GitHubStats />
         <Blog />
         <Contact />
-        <MedallionArchitecture />
       </main>
       <Footer />
     </>
