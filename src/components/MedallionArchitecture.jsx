@@ -61,7 +61,7 @@ const layers = [
 
 export default function MedallionArchitecture() {
   return (
-    <section id="medallion" className="py-20 px-4 bg-gray-950">
+    <section id="medallion" className="py-20 px-4 bg-gray-900">
       <div className="max-w-2xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -88,7 +88,7 @@ export default function MedallionArchitecture() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className={`w-full rounded-2xl border ${layer.border} bg-gray-900/80 shadow-lg ${layer.glow} p-5 text-center`}
+                className={`w-full rounded-2xl border ${layer.border} bg-gray-800/60 shadow-lg ${layer.glow} p-5 text-center`}
               >
                 <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${layer.iconBg} mb-3 text-2xl`}>
                   {layer.emoji}
