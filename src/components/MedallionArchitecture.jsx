@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Section from "./Section";
 
 const layers = [
   {
@@ -61,26 +62,11 @@ const layers = [
 
 export default function MedallionArchitecture() {
   return (
-    <section id="medallion" className="py-20 px-4 bg-[#0a1628]">
+    <Section id="medallion" title="Medallion Architecture" subtitle="The battle-tested layered data architecture powering enterprise pipelines.">
       <div className="max-w-2xl mx-auto">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="mb-12"
-        >
-          <p className="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-2">
-            System Design
-          </p>
-          <h2 className="text-4xl font-bold text-white">
-            Medallion{" "}
-            <span className="text-teal-400">Architecture</span>
-          </h2>
-          <p className="text-gray-400 mt-3 text-base">
-            The battle-tested layered data architecture powering enterprise pipelines.
-          </p>
-        </motion.div>
-
+        <p className="text-teal-400 text-sm font-semibold tracking-widest uppercase mb-8 -mt-4">
+          System Design
+        </p>
         <div className="flex flex-col items-center gap-0">
           {layers.map((layer, i) => (
             <div key={i} className="flex flex-col items-center w-full">
@@ -88,13 +74,13 @@ export default function MedallionArchitecture() {
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.4, delay: i * 0.1 }}
-                className={`w-full rounded-2xl border ${layer.border} bg-gray-800/60 shadow-lg ${layer.glow} p-5 text-center`}
+                className={`w-full rounded-2xl border ${layer.border} glass shadow-lg ${layer.glow} p-5 text-center`}
               >
                 <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl ${layer.iconBg} mb-3 text-2xl`}>
                   {layer.emoji}
                 </div>
                 <h3 className="text-white font-bold text-lg">{layer.title}</h3>
-                <p className="text-gray-400 text-sm mt-1">{layer.desc}</p>
+                <p className="text-slate-400 text-sm mt-1">{layer.desc}</p>
               </motion.div>
 
               {i < layers.length - 1 && (
@@ -107,6 +93,6 @@ export default function MedallionArchitecture() {
           ))}
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
