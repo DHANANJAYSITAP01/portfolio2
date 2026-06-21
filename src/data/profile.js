@@ -23,7 +23,7 @@ export const profile = {
   // ---- Social links ----
   socials: {
     github: "https://github.com/DHANANJAYSITAP01",
-    linkedin: "https://linkedin.com/in/dhananjay-sitap", // TODO: confirm exact LinkedIn URL
+    linkedin: "https://www.linkedin.com/in/dhananjay-sitap-095677327", // TODO: confirm exact LinkedIn URL
     twitter: "",
   },
   githubUsername: "DHANANJAYSITAP01",
