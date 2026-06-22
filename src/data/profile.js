@@ -89,10 +89,10 @@ export const skills = [
   {
     category: "AI / ML & Generative AI",
     items: [
-      { name: "Machine Learning", value: 82 },
-      { name: "Artificial Intelligence", value: 80 },
-      { name: "Generative AI", value: 78 },
-      { name: "LLMs & Prompt Engineering", value: 75 },
+      { name: "Machine Learning", value: 55 },
+      { name: "Artificial Intelligence", value: 50 },
+      { name: "Generative AI", value: 60 },
+      { name: "LLMs & Prompt Engineering", value: 58 },
     ],
   },
   {
