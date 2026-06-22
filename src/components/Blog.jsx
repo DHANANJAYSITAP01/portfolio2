@@ -1,6 +1,7 @@
 import Section from "./Section.jsx";
 import { blog } from "../data/profile.js";
 import { FiArrowRight } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 export default function Blog() {
   return (
@@ -16,7 +17,11 @@ export default function Blog() {
             <div className="flex items-center justify-between mt-5 text-sm">
               <span className="text-slate-500">{post.date}</span>
               <span className="inline-flex items-center gap-1 text-brand-300">
-                Read <FiArrowRight />
+                {post.title === "PySpark Performance Tuning Tips" ? (
+                      <a href="/blog/pyspark-tips" className="inline-flex items-center gap-1 text-brand-300">Read <FiArrowRight /></a>
+                    ) : (
+                      <span>Read <FiArrowRight /></span>
+                    )}
               </span>
             </div>
           </article>
