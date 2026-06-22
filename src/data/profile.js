@@ -148,7 +148,7 @@ export const projects = [
     results: "Processed 5M+ records daily with 30% improved availability and 25–30% faster execution.",
     impact: "Delivered dependable, analytics-ready datasets powering retail reporting at scale.",
     image: "",
-    github: "",
+    github: "https://github.com/DHANANJAYSITAP01/retail-data-engineering-project",
     demo: "",
   },
   {
