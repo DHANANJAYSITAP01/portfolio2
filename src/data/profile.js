@@ -165,7 +165,7 @@ export const projects = [
     results: "Enabled fast, self-serve analytics on top of a governed cloud data lake.",
     impact: "Gave business teams a single, performant source of truth for decision-making.",
     image: "",
-    github: "https://github.com/DHANANJAYSITAP01/data-engineer-end-to-end-pipeline",
+    github: "",
     demo: "",
   },
   {
