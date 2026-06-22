@@ -32,7 +32,7 @@ export const profile = {
   tagline:
     "Data Engineer with 1.5+ years building scalable ETL/ELT pipelines on Databricks, PySpark & AWS — turning massive datasets into production-ready, analytics-grade data.",
   objective:
-    "Data Engineer with 1.5+ years of experience designing and implementing scalable ETL/ELT pipelines using Databricks, PySpark, SQL, and AWS. Experienced in building cloud-based data lake architectures, optimizing distributed data processing, and delivering production-ready analytical datasets in the Retail and Banking domains.",
+    "Data Engineer with 1.5+ years of experience designing and implementing scalable ETL/ELT pipelines using Databricks, PySpark, SQL, and AWS. Experienced in building cloud-based data lake architectures, optimizing distributed data processing, and delivering production-ready analytical datasets in the Retail domain.",
 };
 
 // ---- About section ----
