@@ -1,4 +1,6 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
+import BlogPySpark from "./components/BlogPySpark.jsx";
 import ScrollProgress from "./components/ScrollProgress.jsx";
 import Hero from "./components/Hero.jsx";
 import About from "./components/About.jsx";
@@ -16,7 +18,10 @@ import MedallionArchitecture from "./components/MedallionArchitecture";
 
 export default function App() {
   return (
-    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/blog/pyspark-tips" element={<BlogPySpark />} />
+        <Route path="/" element={<>
       <ScrollProgress />
       <Navbar />
       <main>
@@ -34,6 +39,8 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
