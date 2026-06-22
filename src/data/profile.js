@@ -247,6 +247,6 @@ export const blog = [
   { title: "Generative AI for Data Engineers", tag: "Gen AI", excerpt: "How LLMs and Generative AI are reshaping modern data workflows.", date: "Coming soon" },
   { title: "Machine Learning Pipelines at Scale", tag: "ML", excerpt: "Taking ML models from notebook to production data pipelines.", date: "Coming soon" },
   { title: "Working with LLMs & Prompt Engineering", tag: "AI", excerpt: "Practical patterns for building reliable LLM-powered apps.", date: "Coming soon" },
-  { title: "PySpark Performance Tuning Tips", tag: "PySpark", excerpt: "Partitioning, caching and Spark config tricks that actually move the needle.", date: "Coming soon" },
+  { title: "PySpark Performance Tuning Tips", tag: "PySpark", excerpt: "Partitioning, caching and Spark config tricks that actually move the needle.", date: "June 2026", readTime: "8 min read" },
   { title: "Building a Data Lake on AWS", tag: "AWS", excerpt: "S3 + Redshift + Athena: a practical lakehouse blueprint.", date: "Coming soon" },
 ];
