@@ -59,7 +59,7 @@ export const about = {
   ],
   // Quick stats shown as counters
   stats: [
-    { label: "Experience", value: "1.5+ yrs" },
+    { label: "Experience", value: "1.6+ yrs" },
     { label: "Records / Day", value: "5M+" },
     { label: "Workflows Automated", value: "20+" },
     { label: "Manual Effort Cut", value: "40%" },
@@ -192,7 +192,7 @@ export const experience = [
   {
     role: "Data Engineer",
     org: "2GBR Software Pvt. Ltd · Client: Target Corporation",
-    period: "Nov 2024 — Present",
+    period: "Jan 2025 — Present",
     points: [
       "Built scalable ETL pipelines in Databricks using PySpark & SQL, processing 5M+ records daily with 30% improved availability.",
       "Built and maintained an AWS S3-based Data Lake integrated with Redshift & Athena for analytics.",
