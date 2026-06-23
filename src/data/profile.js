@@ -30,9 +30,9 @@ export const profile = {
 
   // ---- Hero tagline & objective ----
   tagline:
-    "Data Engineer with 1.5+ years building scalable ETL/ELT pipelines on Databricks, PySpark & AWS — turning massive datasets into production-ready, analytics-grade data.",
+    "Data Engineer with 1.6+ years building scalable ETL/ELT pipelines on Databricks, PySpark & AWS — turning massive datasets into production-ready, analytics-grade data.",
   objective:
-    "Data Engineer with 1.5+ years of experience designing and implementing scalable ETL/ELT pipelines using Databricks, PySpark, SQL, and AWS. Experienced in building cloud-based data lake architectures, optimizing distributed data processing, and delivering production-ready analytical datasets in the Retail domain.",
+    "Data Engineer with 1.6+ years of experience designing and implementing scalable ETL/ELT pipelines using Databricks, PySpark, SQL, and AWS. Experienced in building cloud-based data lake architectures, optimizing distributed data processing, and delivering production-ready analytical datasets in the Retail domain.",
 };
 
 // ---- About section ----
@@ -239,7 +239,7 @@ export const achievements = [
   "Engineered pipelines processing 5M+ records daily with 30% improved availability.",
   "Automated 20+ Airflow workflows, reducing manual effort by 40%.",
   "Optimized Spark & SQL workloads, cutting execution time by 25–30%.",
-  "1.5+ years delivering production data platforms in Retail & Banking domains.",
+  "1.6+ years delivering production data platforms in Retail & Banking domains.",
 ];
 
 // ---- Blog (future articles) ----
