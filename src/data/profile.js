@@ -15,8 +15,8 @@ export const profile = {
     "Big Data Engineer",
   ],
   location: "Maharashtra, India",
-  email: "dhananjay.sitap.data@gmail.com",
-  phone: "+91 93255 38419",
+  email: "dhananjaysitap@gmail.com",
+  phone: "+91 7261922461",
   resumeUrl: "public/Dhananjay_Sitap_DataEngineer.pdf.pdf", // save Dhananjay's resume as public/resume.pdf
   photo: "/profile.jpg", // save headshot as public/profile.jpg (falls back to initials)
 
