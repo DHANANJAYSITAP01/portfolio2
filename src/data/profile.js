@@ -239,7 +239,7 @@ export const achievements = [
   "Engineered pipelines processing 5M+ records daily with 30% improved availability.",
   "Automated 20+ Airflow workflows, reducing manual effort by 40%.",
   "Optimized Spark & SQL workloads, cutting execution time by 25–30%.",
-  "1.6+ years delivering production data platforms in Retail & Banking domains.",
+  "1.7+ years delivering production data platforms in Retail & Banking domains.",
 ];
 
 // ---- Blog (future articles) ----
